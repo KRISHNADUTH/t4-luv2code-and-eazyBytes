@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ManyToManyApplication",
+            "request": "launch",
+            "mainClass": "com.mapping.manytomany.ManyToManyApplication",
+            "projectName": "com.mapping-many-to-many"
+        },
+        {
+            "type": "java",
+            "name": "OneToManyApplication",
+            "request": "launch",
+            "mainClass": "com.mapping.OneToMany.OneToManyApplication",
+            "projectName": "com.mapping-OneToMany"
+        },
+        {
+            "type": "java",
+            "name": "ManyToOneApplication",
+            "request": "launch",
+            "mainClass": "com.mapping.ManyToOne.ManyToOneApplication",
+            "projectName": "com.mapping-ManyToOne"
+        },
+        {
+            "type": "java",
+            "name": "OneToOneApplication",
+            "request": "launch",
+            "mainClass": "com.mapping.onetoone.OneToOneApplication",
+            "projectName": "com.mapping-one-to-one"
+        }
+    ]
+}
